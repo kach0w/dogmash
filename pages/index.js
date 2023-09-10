@@ -19,7 +19,7 @@ export default function Home() {
         id: doc.id,
         name:  doc.id,
         url: doc.data().url,
-        rating: doc.data().rating,
+        rating: doc.data().rating.substring(0, 6),
       }))
   
       setLeaderboard(leaderboard);
@@ -194,7 +194,7 @@ export default function Home() {
                       <p id="textthing"><a href={post.url}>{post.id}</a></p>
                       </div>
                       <div id="thingy2">
-                        <p>| Rating: {post.rating.substring(0, 6)}</p>
+                        <p>| Rating: {post.rating}</p>
                       </div>
                     </li>
             ))}

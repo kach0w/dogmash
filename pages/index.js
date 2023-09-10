@@ -194,7 +194,7 @@ export default function Home() {
                       <p id="textthing"><a href={post.url}>{post.id}</a></p>
                       </div>
                       <div id="thingy2">
-                        <p>| Rating: {post.rating}</p>
+                        <p>| Rating: {post.rating.substring(0, 6)}</p>
                       </div>
                     </li>
             ))}

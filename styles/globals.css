@@ -5,5 +5,48 @@
 
 .dog {
   display: inline-block;
-  padding-right: 25px;
+  /* padding-right: 50px; */
+  text-align: center;
+  align-items: center;
+  /* padding-left: 23px; */
+  background-color: white;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#signoff {
+  padding-top: 5rem;
+}
+
+#thingy1 {
+  display: inline-block;
+  text-align: left;
+  width: 230px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+#thingy2 {
+  display: inline-block;
+  text-align: left;
+  width: 100px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+#textthing {
+  text-align: left;
+}
+
+#bitt {
+  background-color: rgb(39, 139, 197);
+  border-radius: 9px;
+  box-shadow: none;
+  text-shadow: none;
+  padding: 5px;
+  color: white;
 }

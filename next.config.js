@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['dog.ceo', 'images.dog.ceo'],
+    domains: ['dog.ceo', 'images.dog.ceo', 'emojipedia.org', 'external-content.duckduckgo.com'],
   },
 }
 

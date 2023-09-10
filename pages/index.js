@@ -19,7 +19,7 @@ export default function Home() {
         id: doc.id,
         name:  doc.id,
         url: doc.data().url,
-        rating: doc.data().rating.substring(0, 6),
+        rating: doc.data().rating.toString().substring(0, 6),
       }))
   
       setLeaderboard(leaderboard);
